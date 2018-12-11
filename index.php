@@ -16,6 +16,10 @@
 				echo "Hello World. Today is : ";
 				echo date("Y md d");
 			?>
+			<p>
+				<a href="/index.php">Login</a>
+				<a href="/register.php">Register</a>
+			</p>
 		</div>
 	    </div>	    
 
