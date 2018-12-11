@@ -1,6 +1,3 @@
-<?php
-	echo "Hello World!";
-	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,32 +10,25 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.25/js/uikit-icons.min.js"></script>
 		<div class="uk-section uk-container"></div>
 		<div class="uk-grid uk-chikd-width-1-3-@s uk-child-with-1"></div>
-		<form class="uk-form-stacked">
+		<form class="uk-form-stacked js-login">
 
 	    <div class="uk-margin">
-	        <label class="uk-form-label" for="form-stacked-text">Text</label>
+	        <label class="uk-form-label" for="form-stacked-text">Email</label>
 	        <div class="uk-form-controls">
-	            <input class="uk-input" id="form-stacked-text" type="text" placeholder="Some text...">
+	            <input class="uk-input" id="form-stacked-text" type="email" required="required" placeholder="email@email.com">
+	        </div>
+	    </div
+
+	    <div class="uk-margin">
+	        <label class="uk-form-label" for="form-stacked-text">Password</label>
+	        <div class="uk-form-controls">
+	            <input class="uk-input" id="form-stacked-text" type="Password " required = "required" placeholder="Your Password">
 	        </div>
 	    </div>
 
 	    <div class="uk-margin">
-	        <label class="uk-form-label" for="form-stacked-select">Select</label>
-	        <div class="uk-form-controls">
-	            <select class="uk-select" id="form-stacked-select">
-	                <option>Option 01</option>
-	                <option>Option 02</option>
-	            </select>
-	        </div>
-	    </div>
-
-    <div class="uk-margin">
-        <div class="uk-form-label">Radio</div>
-        <div class="uk-form-controls">
-            <label><input class="uk-radio" type="radio" name="radio1"> Option 01</label><br>
-            <label><input class="uk-radio" type="radio" name="radio1"> Option 02</label>
-        </div>
-    </div>
+	    	<button class="uk-button uk.button-default" type="submit">LOGIN</button>
+	    </div>	    
 
 </form>
 	</body>
